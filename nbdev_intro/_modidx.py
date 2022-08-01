@@ -26,4 +26,5 @@ d = { 'settings': { 'audience': 'Developers',
                 'tst_flags': 'notest',
                 'user': 'erexer',
                 'version': '0.0.1'},
-  'syms': {'nbdev_intro.core': {'nbdev_intro.core.hello_world': 'https://erexer.github.io/nbdev_intro/core.html#hello_world'}}}
+  'syms': { 'nbdev_intro.core': { 'nbdev_intro.core.say_hello': 'https://erexer.github.io/nbdev_intro/core.html#say_hello',
+                                  'nbdev_intro.core.sieve_of_eratosthenes': 'https://erexer.github.io/nbdev_intro/core.html#sieve_of_eratosthenes'}}}
