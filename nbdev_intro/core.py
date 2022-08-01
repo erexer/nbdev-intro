@@ -13,7 +13,7 @@ def say_hello(name):
     """
     return f'Hello {name}!'
 
-# %% ../00_core.ipynb 7
+# %% ../00_core.ipynb 6
 def sieve_of_eratosthenes(num):
     """
     Print all primes less than or equal to N using the Sieve of Eratosthenes. 
