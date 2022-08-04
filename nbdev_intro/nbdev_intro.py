@@ -17,7 +17,7 @@ def sieve_of_eratosthenes(num):
     """
     # boolean array
     prime = [True for i in range(num+1)]
-    p = 2
+    p = 1
     primes = []
     
     while (p * p <= num):
