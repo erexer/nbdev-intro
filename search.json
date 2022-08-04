@@ -1,0 +1,16 @@
+[
+  {
+    "objectID": "index.html",
+    "href": "index.html",
+    "title": "nbdev_intro",
+    "section": "",
+    "text": "Scientific coding varies greatly from a software developer’s workflow. As a scientist, you’re most likely experimenting with your code and might have a lot of experiments occuring simultaneously, whereas a software developer might have a more solidified goal in mind.\nEveryone optimizes their time while prioritizing different areas. Generally scientists optimize for:\n\ncorrect science\npublishing\n\nUnfortunately for most scientists who code, science education hasn’t caught up with the wide application of Computer Science. Best practices are low on the priority list; things like setting up a dev environment, keeping up with documentation, and writing tests to make sure your code is actually doing what you think it is.\n\n\n\nHere I’ll walk through a tool called nbdev, a package that’s meant for exploratory programming, that trades a small amount of effort for auto-generating documentation and easier tests:\n\nset it and forget it\nauto-generating documentation\neasier tests\nhow to update your files\n\nnbdev lets you use LaTex. \\[\\sum_{n=1}^{\\infty} 2^{-n} = 1\\]\n\n\n\nIf you’re ever going to code, it makes sense to invest some time right now to learn coding best practices. This will both help future-you understand your code, help potential collaborators understand your code, and make it easier to publish your code(especially to something like JOSS)!\nConsistency is key so have a system and stick to it, whether it’s nbdev or jupyter notebook notes or lots of comments."
+  },
+  {
+    "objectID": "nbdev_intro.html",
+    "href": "nbdev_intro.html",
+    "title": "nbdev_intro",
+    "section": "",
+    "text": "say_hello (name)\n\nSay hello to the name entered.\nsay_hello is an example of a function.\n\nsay_hello(\"Isaac\")\n\n'Hello Isaac!'\n\n\n\n\n\n\n\n sieve_of_eratosthenes (num)\n\nPrint all primes less than or equal to N using the Sieve of Eratosthenes.\n\nsieve_of_eratosthenes(30)\n\n[2, 3, 5, 7, 11, 13, 17, 19, 23, 29]"
+  }
+]
