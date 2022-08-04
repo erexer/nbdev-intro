@@ -7,9 +7,6 @@ __all__ = ['say_hello', 'sieve_of_eratosthenes']
 def say_hello(name):
     """
     Say hello to the name entered.
-    
-    Required argument:
-    name: (str) name to say hello to
     """
     return f"Hello {name}!"
 
@@ -17,9 +14,6 @@ def say_hello(name):
 def sieve_of_eratosthenes(num):
     """
     Print all primes less than or equal to N using the Sieve of Eratosthenes. 
-    
-    Required argument: 
-    num: (int) number, N
     """
     # boolean array
     prime = [True for i in range(num+1)]
